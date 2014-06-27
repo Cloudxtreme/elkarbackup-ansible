@@ -1,0 +1,4 @@
+# file: elkarbackup/defaults/main.yml
+
+# ElkarBackup options
+mysql_root_password: 'elkarbackup'
