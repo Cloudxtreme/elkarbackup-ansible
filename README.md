@@ -21,7 +21,7 @@ You can install it, for instance, with the package __Ansibles.mysql__
 Role Variables
 --------------
 
-```
+```yaml
 #Basic settings
 mysql_root_password: 'elkarbackup'
 ```
@@ -29,7 +29,7 @@ mysql_root_password: 'elkarbackup'
 Example Playbook
 -------------------------
 
-```
+```yaml
     - hosts: all
       roles:
         - { role: Ansibles.mysql, mysql_root_password: 'elkarbackup' }
