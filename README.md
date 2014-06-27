@@ -36,6 +36,11 @@ Example Playbook
         - { role: elkarbackup.ansible, mysql_root_password: 'elkarbackup' }
 ```
 
+You can run it with:
+
+```sh
+ansible-playbook -i hosts.yml playbook.yml -u root
+```
 
 License
 -------
