@@ -1,5 +1,5 @@
 galaxy_info:
-  author: xabi ezpeleta
+  author: Xabi Ezpeleta
   company: Tknika
   description: "ElkarBackup installation"
   min_ansible_version: 1.4
@@ -9,5 +9,8 @@ galaxy_info:
     versions:
       - all
   categories:
+    - system
     - backup
+    - networking
+  version: 0.1
   dependencies: []
