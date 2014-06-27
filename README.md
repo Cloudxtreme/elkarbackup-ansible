@@ -13,9 +13,9 @@ To do:
 Requirements & Dependencies
 ------------
 
-MySQL server needed, but it doesn't install it to keep it simple.
+__Important__: MySQL server needed.
 
-You can install it with the package __Ansibles.mysql__
+You can install it, for instance, with the package __Ansibles.mysql__
 
 
 Role Variables
@@ -32,8 +32,8 @@ Example Playbook
 ```
     - hosts: all
       roles:
-	       - { role: Ansibles.mysql, mysql_root_password: 'elkarbackup' }
-         - { role: elkarbackup.ansible, mysql_root_password: 'elkarbackup' }
+        - { role: Ansibles.mysql, mysql_root_password: 'elkarbackup' }
+        - { role: elkarbackup.ansible, mysql_root_password: 'elkarbackup' }
 ```
 
 
