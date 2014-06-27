@@ -8,14 +8,14 @@ Features:
  * Basic configuration
 
 To do:
- * "version" variable to choose between "stable" and "dev"
+ * _version_ variable to choose between _stable_ or _dev_
 
 Requirements & Dependencies
 ------------
 
 MySQL server needed, but it doesn't install it to keep it simple.
 
-You can install it with the package _Ansibles.mysql_
+You can install it with the package __Ansibles.mysql__
 
 
 Role Variables
@@ -32,7 +32,7 @@ Example Playbook
 ```
     - hosts: all
       roles:
-	 - { role: Ansibles.mysql, mysql_root_password: 'elkarbackup' }
+	       - { role: Ansibles.mysql, mysql_root_password: 'elkarbackup' }
          - { role: elkarbackup.ansible, mysql_root_password: 'elkarbackup' }
 ```
 
