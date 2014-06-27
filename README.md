@@ -4,11 +4,11 @@ Role Name
 Ansible role that installs ElkarBackup on Debian/Ubuntu variants. ElkarBackup is a free open source backup solution. More info: http://elkarbackup.org
 
 Features:
- * Installation of ElkarBackup and it's dependencies
- * Basic configuration
+ - Installation of ElkarBackup and it's dependencies
+ - Basic configuration
 
 To do:
- * _version_ variable to choose between _stable_ or _dev_
+ - _version_ variable to choose between _stable_ or _dev_
 
 Requirements & Dependencies
 ------------
