@@ -1,4 +1,4 @@
-Role Name
+Elkarbackup
 ========
 
 Ansible role that installs ElkarBackup on Debian/Ubuntu variants. ElkarBackup is a free open source backup solution. More info: http://elkarbackup.org
