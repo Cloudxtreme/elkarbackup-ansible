@@ -9,6 +9,7 @@ Features:
 
 To do:
 - _version_ variable to choose between _stable_ or _dev_
+- add more variables: _mysql_host_, _elkarbackup_root_passwd_, etc...
 
 Requirements & Dependencies
 ------------
