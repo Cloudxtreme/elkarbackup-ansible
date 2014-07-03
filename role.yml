@@ -1,5 +1,5 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - { role: Ansibles.mysql, mysql_root_password: '' }
-    - { role: elkarbackup-ansible, mysql_root_password: '' }
+    - { role: Ansibles.mysql, mysql_root_password: null }
+    - { role: elkarbackup-ansible, mysql_root_password: null }
