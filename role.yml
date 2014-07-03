@@ -1,5 +1,0 @@
-- hosts: localhost
-  remote_user: root
-  roles:
-    - { role: geerlingguy.mysql, mysql_root_password: 'elkarbackup' }
-    - { role: elkarbackup-ansible, mysql_root_password: 'elkarbackup' }
