@@ -2,4 +2,4 @@
   remote_user: root
   roles:
     - { role: Ansibles.mysql, mysql_root_password: 'elkarbackup' }
-    - { role: elkarbackup.ansible, mysql_root_password: 'elkarbackup' }
+    - { role: elkarbackup-ansible, mysql_root_password: 'elkarbackup' }
