@@ -6,7 +6,7 @@ before_install:
   - sudo apt-get install -qq python-apt python-pycurl
 install:
   - pip install ansible
-  - ansible-galaxy install Ansibles.mysql
+  - ansible-galaxy install geerlingguy.mysql
 script:
   - echo localhost > inventory
   - ansible-playbook -i inventory --syntax-check role.yml
